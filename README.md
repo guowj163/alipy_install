@@ -13,7 +13,7 @@ before run f2n ,you need to install sextractor and a link for sex to sextractor
 
 sudo apt install sextractor 
 
-sudo ln which sextractor /usr/local/bin/sex
+sudo ln -s which sextractor /usr/local/bin/sex
 
 Also f2n need pyfits,you can change f2n.py 'import pyfits as pt'as 'from astropy.io import fits as pt' 
 
